@@ -1,5 +1,5 @@
 export default function PaginaNosotros() {
   return (
-    <div>Nosotros</div>
+    <div className="contenedor">Nosotros</div>
   )
 }

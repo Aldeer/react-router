@@ -5,6 +5,7 @@ import PaginaInicio from './pages/PaginaInicio'
 import PaginaNosotros from './pages/PaginaNosotros'
 import PaginaUsuarios from './pages/PaginaUsuarios'
 import BarraNavegacion from './components/BarraNavegacion';
+import './styles/General.css';
 
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
         <BarraNavegacion />
         <Routes>
           <Route path='/inicio' element={<PaginaInicio />} />
-          <Route path='/usuarios' element={<PaginaUsuarios />} />
+          <Route path='/usuario' element={<PaginaUsuarios />} />
           <Route path='/nosotros' element={<PaginaNosotros />} />
           <Route path='*' element={<ErrorPaginaNoEncontrada />} />
         </Routes>

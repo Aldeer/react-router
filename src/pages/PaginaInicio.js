@@ -1,5 +1,5 @@
 export default function PaginaInicio() {
   return (
-    <div>Inicio</div>
+    <div className="contenedor">Inicio</div>
   )
 }
