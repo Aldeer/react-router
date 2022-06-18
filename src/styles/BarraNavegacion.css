@@ -7,14 +7,17 @@
 }
 
 .barra-links{
-  margin: 0px 5px;
+  margin: 0px 10px;
+  font-size: 20px;
 }
 
 .active {
   color: #00ADB5;
   font-weight: bold;
+  text-decoration: none;
 }
-a{
+
+.no-active{
   color: #EEEEEE;
   font-size: 20px;
   text-decoration: none;
